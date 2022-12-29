@@ -1423,7 +1423,7 @@ pygame.init()
 screen = pygame.display.set_mode((1300, 725))
 pygame.display.set_caption('The Titanomachy')
 clock = pygame.time.Clock()
-game_font = pygame.font.Font('Sprites/Game_Environment/game_font.ttf', 100)
+game_font = pygame.font.Font('Game_Environment/game_font.ttf', 100)
 transparency_amount = 0
 loop_count = 0
 sound_loop_count = 0
